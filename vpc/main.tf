@@ -1,15 +1,12 @@
 resource "aws_vpc" "vpc" {
-
-  for_each = var.vpc
-
-  cidr_block = each.value.cidr_block
-  instance_tenancy = each.value.instance_tenancy
-  enable_dns_support = each.value.enable_dns_support
-  enable_dns_hostnames = each.value.enable_dns_hostnames
-  enable_classiclink = each.value.enable_classiclink
-  enable_classiclink_dns_support = each.value.enable_classiclink_dns_support
-  assign_generated_ipv6_cidr_block = each.value.assign_generated_ipv6_cidr_block
-  tags = each.value.tags
+  cidr_block = var.cidr_block
+  instance_tenancy = var.instance_tenancy
+  enable_dns_support = var.enable_dns_support
+  enable_dns_hostnames = var.enable_dns_hostnames
+  enable_classiclink = var.enable_classiclink
+  enable_classiclink_dns_support = var.enable_classiclink_dns_support
+  assign_generated_ipv6_cidr_block = var.assign_generated_ipv6_cidr_block
+  tags = var.tags
 
   lifecycle {
     create_before_destroy = true
