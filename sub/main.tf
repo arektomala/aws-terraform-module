@@ -1,5 +1,5 @@
 resource "aws_subnet" "subnet" {
-  for_each = var.availability_zone
+  for_each = toset(var.availability_zone)
 
   availability_zone = each.value.availability_zone
   availability_zone_id = each.value.availability_zone_id
