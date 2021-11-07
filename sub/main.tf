@@ -1,4 +1,5 @@
 resource "aws_subnet" "subnet" {
+  for_each = var.availability_zone
   availability_zone = var.availability_zone
   availability_zone_id = var.availability_zone_id
   cidr_block = var.cidr_block
