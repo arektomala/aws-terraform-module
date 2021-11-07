@@ -21,5 +21,7 @@ variable "assign_generated_ipv6_cidr_block" {
 }
 variable "tags" {
   type = map(string)
-  default = ""
+  default = {
+    "terraform" : "yes"
+  }
 }
