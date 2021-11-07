@@ -1,5 +1,5 @@
 variable "availability_zone" {
-  type = map(string)
+  type = string
 }
 variable "availability_zone_id" {
   type = string
