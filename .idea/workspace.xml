@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61c14157-4b9e-47e2-bfab-b7002024a795" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/aws-terraform" beforeDir="false" afterPath="$PROJECT_DIR$/aws-terraform" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/acm/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/acm/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/acm/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ami/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ami/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ami/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/asg/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/asg/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/asg/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/asg_policy/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/asg_policy/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/asg_policy/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/bucket/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/bucket/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/bucket/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/bucket_notification/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/bucket_notification/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/bucket_notification/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudfront/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudfront/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudfront/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudsearch/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudsearch/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudsearch/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudwatch/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudwatch/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudwatch/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudwatch_metric_alarm/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudwatch_metric_alarm/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/cloudwatch_metric_alarm/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/dlm_lifecycle_manager/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/dlm_lifecycle_manager/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/dlm_lifecycle_manager/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ebs_volume/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ebs_volume/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ebs_volume/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ebs_volume_attachment/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ebs_volume_attachment/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ebs_volume_attachment/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ec2/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ec2/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ec2/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ec2_lc/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ec2_lc/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ec2_lc/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/eip/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/eip/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/eip/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_access_key/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_access_key/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_access_key/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group_membership/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group_membership/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group_membership/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group_policy_attachment/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group_policy_attachment/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_group_policy_attachment/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_instance_profile/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_instance_profile/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_instance_profile/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_policy/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_policy/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_policy/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role_policy/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role_policy/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role_policy/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role_policy_attachment/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role_policy_attachment/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_role_policy_attachment/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user_policy/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user_policy/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user_policy/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user_policy_attachment/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user_policy_attachment/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/iam_user_policy_attachment/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/igw/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/igw/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/igw/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/kms/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/kms/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/kms/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda_edge/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda_edge/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda_edge/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda_permission/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda_permission/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lambda_permission/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis_cert/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis_cert/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis_cert/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis_rule/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis_rule/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_lis_rule/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_tg/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_tg/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/lb_tg/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mediaconvert/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mediaconvert/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mediaconvert/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mq/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mq/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mq/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mq_configuration/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mq_configuration/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/mq_configuration/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ngw/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ngw/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ngw/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rds/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rds/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rds/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rds_pg/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rds_pg/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rds_pg/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rdssg/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rdssg/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rdssg/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/redis/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/redis/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/redis/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/redissubgrp/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/redissubgrp/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/redissubgrp/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/route53/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/route53/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/route53/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/route53_zone/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/route53_zone/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/route53_zone/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rt/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rt/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rt/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rta/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rta/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/rta/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_dkim/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_dkim/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_dkim/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_identity/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_identity/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_identity/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_identity_verification/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_identity_verification/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/ses_domain_identity_verification/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sg/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sg/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sg/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sg_rules/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sg_rules/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sg_rules/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_platform_application/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_platform_application/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_platform_application/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_subscription/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_subscription/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_subscription/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_topic/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_topic/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sns_topic/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sqs/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sqs/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sqs/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sqs_policy/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sqs_policy/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sqs_policy/variable.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sub/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sub/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/sub/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/template/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/template/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/template/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpc/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpc/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpc/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_connection/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_connection/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_connection/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_connection_route/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_connection_route/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_connection_route/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_customer_gateway/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_customer_gateway/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_customer_gateway/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway_attachment/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway_attachment/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway_attachment/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway_route_propagation/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway_route_propagation/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-terraform/vpn_gateway_route_propagation/variables.tf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20bfACsYuPzoqhYEB3ww3dJ8zId" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sub" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\aws-terraform-module\sub" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61c14157-4b9e-47e2-bfab-b7002024a795" name="Changes" comment="" />
+      <created>1636318063598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636318063598</updated>
+      <workItem from="1636318066416" duration="8057000" />
+      <workItem from="1638975061552" duration="3498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
